@@ -26,3 +26,4 @@ Route::put('articles/{article}', 'ArticleController@update');
 Route::delete('articles/{article}', 'ArticleController@delete');
 
 Route::post('register', 'Auth\RegisteredUserController@register');
+Route::post('login', 'Auth\LoginController@login');
